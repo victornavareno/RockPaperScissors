@@ -1,5 +1,4 @@
 # RockPaperScissors
 Basic Rock Papers Scissors game using JavaScript
 
-![image](https://github.com/victornavareno/RockPaperScissors/assets/113288139/574e63fa-d077-4be3-845f-3dbc3baf8610)
-
+![image](https://github.com/victornavareno/RockPaperScissors/assets/113288139/51161de8-d91c-4dcf-bd1d-3a6fdb4fe400)
