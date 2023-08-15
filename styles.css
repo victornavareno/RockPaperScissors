@@ -12,12 +12,22 @@ body{
 }
 
 button{
+    font-size: xxx-large;
     width: 220px;
+    height: 80px;
     text-align: center;
-    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
     border-radius: 20px;
     background-color: rgb(56, 255, 152);
     border: 0;
+    box-shadow: 5px 5px 5px rgb(149, 149, 149);
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+button:hover{
+    background-color: rgb(133, 255, 192);
 }
 
 .points{
