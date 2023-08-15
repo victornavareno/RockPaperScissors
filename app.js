@@ -1,11 +1,15 @@
+// Retrieving variables from HTML elements
 const computerChoiceDisplay = document.getElementById('computer-choice');
 const userChoiceDisplay = document.getElementById('user-choice');
 const resultDisplay = document.getElementById('result');
 const possibleChoices = document.querySelectorAll('button');
+
+// GLobal variables
 let userChoice;
 let computerChoice;
 let result;
 
+// Every time you click a button - this code snippet executes:
 possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click', (e)=>{
     userChoice = e.target.id;
     userChoiceDisplay.innerHTML = userChoice;
@@ -14,6 +18,7 @@ possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click
 }
 ))
 
+// Generates a random choice based on the user choice
 function generateComputerChoice(){
     const randomNumber = Math.floor(Math.random() * 3) + 1 // Or you can juts use 3
     console.log(randomNumber);
@@ -37,6 +42,8 @@ function generateComputerChoice(){
     computerChoiceDisplay.innerHTML = computerChoice;
 }
 
+
+// Checks the result of the user's choice vs the computer's choice
 function getResult(){
 
     // ugly aah solution
