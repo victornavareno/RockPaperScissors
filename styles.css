@@ -12,12 +12,16 @@ body{
 }
 
 button{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 220px;
+    text-align: center;
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     border-radius: 20px;
-    background-color: aquamarine;
+    background-color: rgb(56, 255, 152);
+    border: 0;
 }
 
 .points{
+    color: rgb(255, 24, 97);
     margin: 0;
 }
 .line{
