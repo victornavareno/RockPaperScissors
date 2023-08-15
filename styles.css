@@ -16,3 +16,14 @@ button{
     border-radius: 20px;
     background-color: aquamarine;
 }
+
+.points{
+    margin: 0;
+}
+.line{
+    margin: 0;
+    padding: 0;
+    height: 3px;
+    background-color: black;
+    width: 90%;
+}
